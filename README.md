@@ -29,6 +29,6 @@ Very simple: only the next line must be included in your 'head' section of your 
 * Search for hash and navigate to it
 * Update hashes format
 
-### 1.4.2Version 0.1 ###
+### Version 0.1 ###
 
 * It is the first version.
