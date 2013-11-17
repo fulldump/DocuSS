@@ -2,10 +2,10 @@ var index = [];
 
 window.addEventListener('load', function(e) {
 
-    loadCSS('http://softwaremaniacs.org/media/soft/highlight/styles/googlecode.css');
+    loadCSS('//softwaremaniacs.org/media/soft/highlight/styles/googlecode.css');
 
-    loadCSS('http://www.treeweb.es/ShareCode/preview/fc9ad45551a6e4b4d06e038fe9a6250b/css', function(e){
-        loadJS('http://softwaremaniacs.org/media/soft/highlight/highlight.pack.js', function(e) {
+    loadCSS('//docuss.treeweb.es/docuss.css', function(e){
+        loadJS('//softwaremaniacs.org/media/soft/highlight/highlight.pack.js', function(e) {
             processALL();
         });
     });
@@ -190,8 +190,6 @@ function traverseDOM(item, callback) {
     }
     callback(item);
 }
-
-
 
 function loadJS(url, callback) {
     var script = document.createElement('script');

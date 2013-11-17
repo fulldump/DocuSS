@@ -13,7 +13,7 @@ DocuSS transforms the markup inside your browser and adds a set of CSS files. Th
 Very simple: only the next line must be included in your 'head' section of your HTML document and all will work:
 
 ```
-<script src="http://www.treeweb.es/ShareCode/preview/fc9ad45551a6e4b4d06e038fe9a6250b/js" type="text/javascript"></script>
+<script src="//docuss.treeweb.es/docuss.js" type="text/javascript"></script>
 ```
 
 ## Improvements ##
